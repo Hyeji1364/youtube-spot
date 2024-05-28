@@ -1,4 +1,4 @@
-//비디오가 들어간 곳
+// 비디오 페이지
 .video__inner {
     display: grid;
     grid-template-columns: repeat(4, 24%);
@@ -7,28 +7,17 @@
 
     @media (max-width: 1400px) {
         grid-template-columns: repeat(3, 32%);
-        gap: 15%;
+        gap: 15px;
     }
 
     @media (max-width: 1200px) {
         grid-template-columns: repeat(2, 49%);
+        gap: 10px;
     }
 
-    @media(max-width: 400px) {
+    @media (max-width: 400px) {
         grid-template-columns: repeat(1, 100%);
     }
-
-    .video {
-        a {
-            img {
-                padding-bottom: 10px;
-            }
-        }
-    }
-}
-
-.video__inner.search {
-    padding: 40px;
 
     .video {
         .video__thumb {
@@ -86,43 +75,4 @@
             -webkit-box-orient: vertical;
         }
     }
-}
-
-// 비디오 상세페이지 
-.video__info {
-    padding: 2rem;
-
-    .title {
-        font-size: 1.25rem;
-        margin-bottom: 1rem;
-    }
-
-    .channel {
-        display: flex;
-        justify-content: space-between;
-        background-color: #333;
-        padding: 1rem 2rem;
-        border-radius: 30px;
-
-        span {
-            margin-left: 10px;
-
-            svg {
-                width: 20px;
-                height: 20px;
-                vertical-align: -5px;
-                margin-right: 5px;
-            }
-        }
-
-        .channelTitle {
-            font-size: 1.25rem;
-            font-weight: bold;
-        }
-    }
-}
-
-.video__desc {
-    padding: 2rem;
-    white-space: pre-line;
 }
