@@ -1,0 +1,173 @@
+@font-face {
+    font-family: "suite";
+    font-weight: 300;
+    font-style: normal;
+    src: url("https://cdn.jsdelivr.net/gh/websfont/suite/suite-Light.woff2") format("woff2"),
+        url("https://cdn.jsdelivr.net/gh/websfont/suite/suite-Light.woff") format("woff");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "suite";
+    font-weight: 400;
+    font-style: normal;
+    src: url("https://cdn.jsdelivr.net/gh/websfont/suite/suite-Regular.woff2") format("woff2"),
+        url("https://cdn.jsdelivr.net/gh/websfont/suite/suite-Regular.woff") format("woff");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "suite";
+    font-weight: 500;
+    font-style: normal;
+    src: url("https://cdn.jsdelivr.net/gh/websfont/suite/suite-Medium.woff2") format("woff2"),
+        url("https://cdn.jsdelivr.net/gh/websfont/suite/suite-Medium.woff") format("woff");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "suite";
+    font-weight: 600;
+    font-style: normal;
+    src: url("https://cdn.jsdelivr.net/gh/websfont/suite/suite-SemiBold.eot");
+    src: url("https://cdn.jsdelivr.net/gh/websfont/suite/suite-SemiBold.eot?#iefix") format("embedded-opentype"),
+        url("https://cdn.jsdelivr.net/gh/websfont/suite/suite-SemiBold.woff2") format("woff2"),
+        url("https://cdn.jsdelivr.net/gh/websfont/suite/suite-SemiBold.woff") format("woff"),
+        url("https://cdn.jsdelivr.net/gh/websfont/suite/suite-SemiBold.ttf") format("truetype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "suite";
+    font-weight: 700;
+    font-style: normal;
+    src: url("https://cdn.jsdelivr.net/gh/websfont/suite/suite-Bold.eot");
+    src: url("https://cdn.jsdelivr.net/gh/websfont/suite/suite-Bold.eot?#iefix") format("embedded-opentype"),
+        url("https://cdn.jsdelivr.net/gh/websfont/suite/suite-Bold.woff2") format("woff2"),
+        url("https://cdn.jsdelivr.net/gh/websfont/suite/suite-Bold.woff") format("woff"),
+        url("https://cdn.jsdelivr.net/gh/websfont/suite/suite-Bold.ttf") format("truetype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "suite";
+    font-weight: 800;
+    font-style: normal;
+    src: url("https://cdn.jsdelivr.net/gh/websfont/suite/suite-ExtraBold.eot");
+    src: url("https://cdn.jsdelivr.net/gh/websfont/suite/suite-ExtraBold.eot?#iefix") format("embedded-opentype"),
+        url("https://cdn.jsdelivr.net/gh/websfont/suite/suite-ExtraBold.woff2") format("woff2"),
+        url("https://cdn.jsdelivr.net/gh/websfont/suite/suite-ExtraBold.woff") format("woff"),
+        url("https://cdn.jsdelivr.net/gh/websfont/suite/suite-ExtraBold.ttf") format("truetype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "suite";
+    font-weight: 900;
+    font-style: normal;
+    src: url("https://cdn.jsdelivr.net/gh/websfont/suite/suite-Black.eot");
+    src: url("https://cdn.jsdelivr.net/gh/websfont/suite/suite-Black.eot?#iefix") format("embedded-opentype"),
+        url("https://cdn.jsdelivr.net/gh/websfont/suite/suite-Black.woff2") format("woff2"),
+        url("https://cdn.jsdelivr.net/gh/websfont/suite/suite-Black.woff") format("woff"),
+        url("https://cdn.jsdelivr.net/gh/websfont/suite/suite-Black.ttf") format("truetype");
+    font-display: swap;
+}
+
+.suite {
+    font-family: "suite";
+}
+
+.suite300 {
+    font-family: "suite";
+    font-weight: 300;
+}
+
+.suite400 {
+    font-family: "suite";
+    font-weight: 400;
+}
+
+.suite500 {
+    font-family: "suite";
+    font-weight: 500;
+}
+
+.suite600 {
+    font-family: "suite";
+    font-weight: 600;
+}
+
+.suite700 {
+    font-family: "suite";
+    font-weight: 700;
+}
+
+.suite800 {
+    font-family: "suite";
+    font-weight: 800;
+}
+
+.suite900 {
+    font-family: "suite";
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: "nexonLv1";
+    font-weight: 300;
+    font-style: normal;
+    src: url("https://cdn.jsdelivr.net/gh/websfont/nexonLv1/nexonLv1-Light.eot");
+    src: url("https://cdn.jsdelivr.net/gh/websfont/nexonLv1/nexonLv1-Light.eot?#iefix") format("embedded-opentype"),
+        url("https://cdn.jsdelivr.net/gh/websfont/nexonLv1/nexonLv1-Light.woff2") format("woff2"),
+        url("https://cdn.jsdelivr.net/gh/websfont/nexonLv1/nexonLv1-Light.woff") format("woff"),
+        url("https://cdn.jsdelivr.net/gh/websfont/nexonLv1/nexonLv1-Light.ttf") format("truetype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "nexonLv1";
+    font-weight: 400;
+    font-style: normal;
+    src: url("https://cdn.jsdelivr.net/gh/websfont/nexonLv1/nexonLv1-Regular.eot");
+    src: url("https://cdn.jsdelivr.net/gh/websfont/nexonLv1/nexonLv1-Regular.eot?#iefix") format("embedded-opentype"),
+        url("https://cdn.jsdelivr.net/gh/websfont/nexonLv1/nexonLv1-Regular.woff2") format("woff2"),
+        url("https://cdn.jsdelivr.net/gh/websfont/nexonLv1/nexonLv1-Regular.woff") format("woff"),
+        url("https://cdn.jsdelivr.net/gh/websfont/nexonLv1/nexonLv1-Regular.ttf") format("truetype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "nexonLv2";
+    font-weight: 300;
+    font-style: normal;
+    src: url("https://cdn.jsdelivr.net/gh/websfont/nexonLv2/nexonLv2-Light.eot");
+    src: url("https://cdn.jsdelivr.net/gh/websfont/nexonLv2/nexonLv2-Light.eot?#iefix") format("embedded-opentype"),
+        url("https://cdn.jsdelivr.net/gh/websfont/nexonLv2/nexonLv2-Light.woff2") format("woff2"),
+        url("https://cdn.jsdelivr.net/gh/websfont/nexonLv2/nexonLv2-Light.woff") format("woff"),
+        url("https://cdn.jsdelivr.net/gh/websfont/nexonLv2/nexonLv2-Light.ttf") format("truetype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "nexonLv2";
+    font-weight: 400;
+    font-style: normal;
+    src: url("https://cdn.jsdelivr.net/gh/websfont/nexonLv2/nexonLv2-Regular.eot");
+    src: url("https://cdn.jsdelivr.net/gh/websfont/nexonLv2/nexonLv2-Regular.eot?#iefix") format("embedded-opentype"),
+        url("https://cdn.jsdelivr.net/gh/websfont/nexonLv2/nexonLv2-Regular.woff2") format("woff2"),
+        url("https://cdn.jsdelivr.net/gh/websfont/nexonLv2/nexonLv2-Regular.woff") format("woff"),
+        url("https://cdn.jsdelivr.net/gh/websfont/nexonLv2/nexonLv2-Regular.ttf") format("truetype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "nexonLv2";
+    font-weight: 500;
+    font-style: normal;
+    src: url("https://cdn.jsdelivr.net/gh/websfont/nexonLv2/nexonLv2-Medium.eot");
+    src: url("https://cdn.jsdelivr.net/gh/websfont/nexonLv2/nexonLv2-Medium.eot?#iefix") format("embedded-opentype"),
+        url("https://cdn.jsdelivr.net/gh/websfont/nexonLv2/nexonLv2-Medium.woff2") format("woff2"),
+        url("https://cdn.jsdelivr.net/gh/websfont/nexonLv2/nexonLv2-Medium.woff") format("woff"),
+        url("https://cdn.jsdelivr.net/gh/websfont/nexonLv2/nexonLv2-Medium.ttf") format("truetype");
+    font-display: swap;
+}
