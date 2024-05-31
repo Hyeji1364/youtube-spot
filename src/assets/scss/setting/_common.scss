@@ -73,7 +73,7 @@ body {
 }
 
 .fade-in {
-    animation: fadeIn 1s ease-in;
+    animation: fadeIn 0.7s cubic-bezier(0, 0, 0, 1.07);
 }
 
 @keyframes fadeIn {

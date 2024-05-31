@@ -1,6 +1,6 @@
 $loader-count: 6;
 $loader-proportion: 200px;
-$loader-color: #00AABB;
+$loader-color: #ffffff;
 $stagger: 0.1875s;
 $animation_config: (
     name: swoosh,
@@ -24,22 +24,22 @@ $animation_config: (
 .loading {
     position: absolute;
     left: 50%;
-    right: 50%;
+    top: 50%;
     transform: translate(-50%, -50%);
-    background-color: #fff;
-}
+    padding-left: 260px;
 
-svg {
-    position: relative;
-    width: $loader-proportion;
-    height: $loader-proportion;
+    svg {
+        position: relative;
+        width: $loader-proportion;
+        height: $loader-proportion;
 
-    circle {
-        animation: sh-setup($animation_config);
-        position: absolute;
-        transform: scale(0);
-        transform-origin: center center;
-        fill: $loader-color;
+        circle {
+            animation: sh-setup($animation_config);
+            position: absolute;
+            transform: scale(0);
+            transform-origin: center center;
+            fill: $loader-color;
+        }
     }
 }
 

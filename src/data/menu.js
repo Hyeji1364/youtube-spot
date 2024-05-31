@@ -25,11 +25,11 @@ export const headerMenus = [
     }, {
         title: "대전 맛집",
         icon: <IoLocationSharp />,
-        src: "/search/대전"
+        src: "/search/대전 맛집"
     }, {
         title: "강원도 맛집",
         icon: <IoLocationSharp />,
-        src: "/search/강원도"
+        src: "/search/강원도 맛집"
     }, {
         title: "전라도 맛집",
         icon: <IoLocationSharp />,
@@ -37,7 +37,7 @@ export const headerMenus = [
     }, {
         title: "제주도 맛집",
         icon: <GiPalmTree />,
-        src: "/search/제주"
+        src: "/search/제주 맛집"
     }, {
         title: "다이어트 레시피",
         icon: <BiFoodMenu />,

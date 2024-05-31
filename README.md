@@ -48,3 +48,9 @@ npm install react-router-dom axios react-icon react-player sass react-helmet-asy
 
 ## React
 버츄얼 돔 방식 - 재활용 가능
+
+## 깃헙 소스  
+
+- git colne
+- npm install
+- 버전 확인

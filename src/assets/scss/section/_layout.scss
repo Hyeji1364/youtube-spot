@@ -1,16 +1,19 @@
-#header {
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 260px;
+html,
+body {
+    margin: 0;
+    padding: 0;
     height: 100%;
-    z-index: 10000;
-    background-color: #333;
+}
+
+#app {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 #main {
+    flex: 1;
     max-width: 2000px;
-    height: calc(100vh - 80px);
     margin: 0 auto;
     padding-left: 260px;
     background-color: #111;
@@ -22,19 +25,35 @@
     padding: 20px 20px 20px 260px;
 }
 
+#header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 260px;
+    height: 100%;
+    z-index: 10000;
+    background-color: #333;
+}
+
 #famousplace,
 #seoul,
-#gyeonggi,
+#geonggi,
 #daejeon,
 #gangwondo,
 #jeju,
 #diet {
     padding: 40px;
+}
 
-    h2 {
-        margin-bottom: 0.6rem;
-        font-size: 1.25rem;
-    }
+#famousplace h2,
+#seoul h2,
+#geonggi h2,
+#daejeon h2,
+#gangwondo h2,
+#jeju h2,
+#diet h2 {
+    margin-bottom: 0.6rem;
+    font-size: 1.25rem;
 }
 
 @media (max-width: 960px) {
@@ -49,16 +68,22 @@
 
     #famousplace,
     #seoul,
-    #gyeonggi,
+    #geonggi,
     #daejeon,
     #gangwondo,
     #jeju,
     #diet {
         padding: 20px;
+    }
 
-        h2 {
-            margin-bottom: 0.6rem;
-            font-size: 1.25rem;
-        }
+    #famousplace h2,
+    #seoul h2,
+    #geonggi h2,
+    #daejeon h2,
+    #gangwondo h2,
+    #jeju h2,
+    #diet h2 {
+        margin-bottom: 0.6rem;
+        font-size: 1.25rem;
     }
 }
