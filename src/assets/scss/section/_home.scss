@@ -15,17 +15,6 @@ $text-color: #fff;
     background-color: $bg-color-darker;
     padding: 20px;
     text-align: center;
-
-    .channel-info {
-        max-width: 600px;
-        margin: 0 auto;
-
-        .channel-art {
-            width: 100%;
-            height: auto;
-            border-radius: 8px;
-        }
-    }
 }
 
 .video-section {

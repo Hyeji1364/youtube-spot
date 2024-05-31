@@ -40,8 +40,6 @@ npm install react-router-dom axios react-icon react-player sass react-helmet-asy
 ## 프로젝트 실행
 
 ## 트러블 슈팅
-- node.js 설치시 폴더 인식 못함 : 
-검색을 해보니 .... 이렇게 해결을 했다.
 
 ## build 실행
 - npm run build
@@ -54,3 +52,5 @@ npm install react-router-dom axios react-icon react-player sass react-helmet-asy
 - git colne
 - npm install
 - 버전 확인
+
+## 사이트 배포
