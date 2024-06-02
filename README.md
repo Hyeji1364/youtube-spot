@@ -54,3 +54,4 @@ npm install react-router-dom axios react-icon react-player sass react-helmet-asy
 - 버전 확인
 
 ## 사이트 배포
+- npm run build

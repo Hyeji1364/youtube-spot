@@ -38,17 +38,17 @@
         margin-top: 30px;
 
         span {
-            background-color: #333;
+            background-color: #a6a6a631;
             padding: 10px 20px;
             border-radius: 40px;
             margin: 4px;
-        }
 
-        svg {
-            width: 20px;
-            height: 20px;
-            vertical-align: -5px;
-            margin-right: 20px;
+            svg {
+                width: 20px;
+                height: 20px;
+                vertical-align: -5px;
+                margin-right: 5px;
+            }
         }
     }
 }
@@ -56,16 +56,16 @@
 .channel__video {
     margin-top: 100px;
     padding: 2rem 2rem 3rem 2rem;
+}
 
+.channel__more {
+    text-align: center;
 
-    .video__inner {
-        text-align: center;
-
-        button {
-            padding: 0.3rem 1rem;
-            border-radius: 50px;
-            margin-bottom: 100px;
-            background-color: #fff;
-        }
+    button {
+        padding: 0.5rem 2rem;
+        border-radius: 50px;
+        margin-bottom: 100px;
+        background-color: #fff;
+        cursor: pointer;
     }
 }
