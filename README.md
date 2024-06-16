@@ -74,8 +74,7 @@ Axios의 주요 장점은 간단하게 웹 서버와의 통신을 구현할 수 
   ````javascript
   constructor(props) {
   super(props);
-  this.handleClick = this.handleClick.bind(this);
- }
+  this.handleClick = this.handleClick.bind(this);}
   ````
 
 - 함수 컴포넌트 사용 시: 함수 컴포넌트에서 이벤트 핸들러를 정의하고 사용합니다.
