@@ -86,7 +86,7 @@ const handleClick = () => {
 ````
 
 ## build 실행
-- npm run build
+`npm run build`
 
 ## React
 버츄얼 돔 방식 - 재활용 가능
