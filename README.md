@@ -12,8 +12,12 @@
 7. Suspense 설정
 8. 각 페이지 메타 태그 설정(Helmet)
 
+<br>
+
 ## 자동완성 단축키
 `rafce`
+
+<br>
 
 ## 필요한 라이브러리 설치
 - react를 설치 `npm create-react-app 폴더이름` : 폴더를 생략하고 싶으면 .으로 표시
@@ -28,15 +32,21 @@
 ````bash
 npm install react-router-dom axios react-icon react-player sass react-helmet-async swiper
 ````
+<br>
 
 ## 용어 정리
 - `axious` : Axios는 웹 브라우저나 Node.js에서 사용할 수 있는 도구로, 인터넷을 통해 서버에 정보를 요청하거나 보낼 수 있게 해주는 JavaScript 라이브러리입니다. 즉, 웹 페이지에서 필요한 데이터를 서버로부터 불러오거나, 사용자의 입력을 서버에 전달할 때 사용할 수 있습니다. Axios의 주요 장점은 간단하게 웹 서버와의 통신을 구현할 수 있다는 것입니다.
 
+<br>
+
 ## 사용 스택
 - node.js 설치
 
+<br>
+
 ## 실행하기
 `npm start` : 리액트 시작하기
+<br>
 
 ## 트러블 슈팅에 따른 해결방법
 
