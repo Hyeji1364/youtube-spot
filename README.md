@@ -92,9 +92,8 @@ const handleClick = () => {
 버츄얼 돔 방식 - 재활용 가능
 
 ## 깃헙 소스  
-
-- git colne
-- npm install
+`git clone`
+`npm install`
 - 버전 확인
 
 ## 사이트 배포
