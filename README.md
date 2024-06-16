@@ -71,17 +71,16 @@ Axios의 주요 장점은 간단하게 웹 서버와의 통신을 구현할 수 
 - 해결 방법
 - 이벤트 바인딩 확인: 클래스 컴포넌트에서 이벤트 핸들러를 바인딩했는지 확인합니다.
   
-  ````
+  ````javascript
   constructor(props) {
   super(props);
   this.handleClick = this.handleClick.bind(this);
  }
   ````
 
-- 함수 컴포넌트 사용 시
-- 함수 컴포넌트에서 이벤트 핸들러를 정의하고 사용합니다.
+- 함수 컴포넌트 사용 시: 함수 컴포넌트에서 이벤트 핸들러를 정의하고 사용합니다.
 
-````
+````javascript
 const handleClick = () => {
   console.log('Button clicked');
 };
