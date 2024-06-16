@@ -1,4 +1,4 @@
-# Youtube API를 이용한 맛집 사이트 😋
+# Youtube API를 이용한 맛집 사이트 🍜 😋
 - 맛집을 찾는 수요 👉🏼 국내 다양한 지역의 맛집을 알 수 있습니다.
 - 다이어트와 건강식에 대한 수요 증가 👉🏼 다이어트 레시피를 추가로 알 수 있습니다.
 
@@ -11,9 +11,6 @@
 6. Header 설정
 7. Suspense 설정
 8. 각 페이지 메타 태그 설정(Helmet)
-
-## 실행하기
-`npm start` : 리액트 시작하기
 
 ## 자동완성 단축키
 `rafce`
@@ -38,8 +35,8 @@ npm install react-router-dom axios react-icon react-player sass react-helmet-asy
 ## 사용 스택
 - node.js 설치
 
-## 프로젝트 실행
-npm start
+## 실행하기
+`npm start` : 리액트 시작하기
 
 ## 트러블 슈팅에 따른 해결방법
 
