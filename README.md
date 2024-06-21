@@ -7,7 +7,9 @@
 ### 전체 화면 미리보기 🍳
 ![image](https://github.com/Hyeji1364/youtube-spot/assets/161557112/47f511c2-a281-4b3a-ae24-5e6e5e64bc5e)
 
-메인 페이지 전체화면입니다. <br>
+메인 페이지 전체화면입니다.
+
+<br>
 
 ### 메뉴 구성 📒
 ![image](https://github.com/Hyeji1364/youtube-spot/assets/161557112/37f19394-5e94-4c66-8936-d732d33ef1d2)
